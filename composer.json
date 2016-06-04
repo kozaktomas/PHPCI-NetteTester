@@ -10,11 +10,6 @@
   ],
   "autoload": {
     "psr-4": {
-      "PHPCI\\": "PHPCI"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
       "Kozaktomas\\PHPCI\\Plugin\\": "src/"
     }
   },
