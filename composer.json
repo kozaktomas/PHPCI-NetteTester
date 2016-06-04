@@ -1,0 +1,24 @@
+{
+  "name": "kozaktomas/phpcinettetester",
+  "description": "Testing plugin to PHPCI for Nette framework",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": [
+    "BSD-3-Clause",
+    "GPL-2.0",
+    "GPL-3.0"
+  "autoload": {
+    "psr-4": {
+      "PHPCI\\": "PHPCI"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Kozaktomas\\PHPCI\\Plugin\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.5",
+    "block8/phpci": "~1.7"
+  }
+}
